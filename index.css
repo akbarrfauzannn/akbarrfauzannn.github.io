@@ -31,18 +31,37 @@ section#home {
     flex-direction: column;
 }
 
-.main-form {
+section#our-package {
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
 }
 
-.element-left {
-    width: 50px;
+.container-form {
+    display: flex;
+}
+
+.img-content {
+    width: 90%;
+}
+
+.main-form p {
+    font-style: italic;
+    padding-left: 20%;
+}
+
+.icon {
+    border-radius: 100px;
+    background: #aca7aa;
+    padding: 3px;
+    text-align: center;
+    width: 70px;
+    height: 70px;
 }
 
 .form {
     width: 200px;
-    padding: 25px;
+    padding: 40px;
     background-color: gainsboro;
 }
 
